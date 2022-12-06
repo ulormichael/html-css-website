@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+}
+  
+menu li {
+    float: right;
+}
+  
+menu li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+}
+
+#about-section img {
+    padding-bottom: 10px;
+}
+
+#about-section {
+    background-color: #606060;
+    padding-bottom: 20px;
+}
+
+#blog-section {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#blog-section h1 {
+    text-align: center;
+    color: #000;
+}
+
+#blog-section p {
+    color: #000;
+}
+
+#blog-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#blog-main img { 
+    border-radius: 50%; 
+    width: 400px;
+    height: 400px;
+}
+
+figure {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+figure h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+figure p{
+    font-size: 25px;
+    color: #fff;
+}
+
+#inner-main h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+#inner-main ul {
+    margin-left: 40px;
+    color: #fff;
+}
+
+#inner-main {
+    margin-left: 40px;
+    border: 1px solid #eee;
+    border-width: 2px;
+    border-radius: 12px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#footer {
+    background-color: #1f2937;
+    color:#fff;
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
